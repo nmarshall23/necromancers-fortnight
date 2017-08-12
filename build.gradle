@@ -1,0 +1,74 @@
+defaultTasks 'buildPack'
+
+
+project('client') {
+ def packType = 'client'
+
+ task copyFiles(type:Copy) {
+    from '.'
+    from '../common'
+    into "../target/$packType"
+ }
+
+ task clean(type: Delete) {
+  delete '../target'
+ }
+
+ task buildPack(type: Zip, dependsOn: [clean, copyFiles]) {
+  baseName project.parent.name
+  version project.version
+  appendix minecraftVersion
+  classifier packType
+  destinationDir file('../target')
+  from ("../target/$packType")
+ }
+
+ task syncCommonScript(type: Sync) {
+  include '*.zs'
+  from "../target/$packType/scripts"
+  into '../common/scripts'
+ }
+
+ task syncCommonConfig(type: Sync) {
+  include '**/*.cfg'
+  from "../target/$packType/config"
+  into '../common/config'
+ }
+
+ task sync(dependsOn: [syncCommonScript, syncCommonConfig])
+ 
+
+
+ task testPack(type:Copy, dependsOn: [clean, copyFiles]) {
+    from '../packtesting'
+    into "../target/$packType"
+ }
+
+}
+
+project('server') {
+ def packType = 'server'
+
+ task copyFiles(type:Copy) {
+    from '.'
+    from '../common'
+    into "../target/$packType"
+ }
+
+ task buildPack(type: Zip, dependsOn: copyFiles) {
+  baseName project.parent.name
+  version project.version
+  appendix minecraftVersion
+  classifier packType
+  destinationDir file('../target')
+  from ("../target/$packType")
+ }
+
+}
+
+
+task clean(type: Delete) {
+  delete 'target'
+}
+
+

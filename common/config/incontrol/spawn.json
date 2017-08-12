@@ -1,0 +1,13 @@
+[
+{
+ "maxspawndist": 128.0,
+ "hostile": true,
+ "minheight": 60,
+ "result": "deny"
+},
+{
+ "maxheight": 60,
+ "mob": ["minecraft:witch"],
+ "result": "deny"
+}
+]
