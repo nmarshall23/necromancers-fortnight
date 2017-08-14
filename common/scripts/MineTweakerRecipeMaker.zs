@@ -17,15 +17,9 @@ recipes.remove(<actuallyadditions:block_furnace_double>);
 recipes.remove(<actuallyadditions:block_grinder_double>);
 recipes.remove(<actuallyadditions:block_grinder>);
 
-mods.betterwithmods.Buoyancy.set(<actuallyadditions:item_solidified_experience>, 1.0);
-mods.betterwithmods.Buoyancy.set(<minecraft:sponge:1>, 0.1);
-mods.betterwithmods.Buoyancy.set(<minecraft:prismarine_shard>, 0.2);
-mods.betterwithmods.Buoyancy.set(<minecraft:prismarine_crystals>, 0.8);
 
-mods.tconstruct.Casting.removeTableRecipe(<immersiveengineering:metal:30>);
-//OutputStack, InputFluid, CastStack, ConsumeCast, Time in Ticks
-var flIngots = 144 * 3 as int;
-mods.tconstruct.Casting.addTableRecipe(<immersiveengineering:metal:30>, <liquid:copper> * flIngots, <tconstruct:cast_custom:3>, false, 40);
+
+
 
 // ================================================================================
 //#MARKER REMOVE SHAPELESS
@@ -43,8 +37,6 @@ mods.tconstruct.Casting.addTableRecipe(<immersiveengineering:metal:30>, <liquid:
 
 // ================================================================================
 //#MARKER ADD SHAPED
-
-recipes.addShaped(<opencomputers:material:6>, [[<ore:ingotTin>, <ore:ingotTin>, <ore:ingotTin>], [<ore:nuggetGold>, <minecraft:paper>, <ore:nuggetGold>], [null, <ore:dustRedstone>, null]]);
 
 
 

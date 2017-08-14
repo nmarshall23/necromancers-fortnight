@@ -1,3 +1,6 @@
+/*
+ * Compass, and clock are used in many recipes. Make them easyer to craft.
+ */
 
 recipes.remove(<minecraft:compass>);
 recipes.remove(<minecraft:clock>);

@@ -1,4 +1,7 @@
-
+/**
+ * I want TIS 3D to be used far earlyer then it would be if Controllers require a Diamond.
+ * Also it uses too much iron. We have so many other ingots to use.
+ */
 
 recipes.remove(<tis3d:casing>);
 recipes.remove(<tis3d:controller>);

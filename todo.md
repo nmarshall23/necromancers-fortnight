@@ -114,9 +114,9 @@ IE Coke Furnice, requires Hemp fibers.
 
 ##4. Awkward Mechanical Automation
 
-Embers Pipes, require Strips of Tanned Leather, and redstone latch.
-Tinkers Silky Gem, gives silk touch, requires Tanned Leather.
-Toolbelt, requires Strips of Tanned Leather.
+ - [X] Embers Pipes, require Strips of Tanned Leather, and redstone latch.
+ - [ ] Tinkers Silky Gem, gives silk touch, requires Tanned Leather.
+ - [ ] Toolbelt, requires Strips of Tanned Leather.
 
 ##5. Nether Plunge / Bounty of Fire?
 

@@ -96,7 +96,7 @@ val allEntries = oreDict.entries;
 for oreDictEntry in allEntries{
     print(oreDictEntry.name);
 }
-**/
+
 
 
 var oredictOres = [
@@ -124,11 +124,10 @@ var oredictDusts = [
   <ore:dustUranium>,
  ] as IIngredient[];
 
-
-for i, ore in oredictOres {
+**/
+// for i, ore in oredictOres {
   // Crusher.removeRecipe(ieDusts[i]); #IE crusher
   // Crusher.addRecipe(ic2TinyDusts[i] * 2, input, 2500, ieCrusherSecondaries[i], 0.1);
   // ArcFurnace.removeRecipe(ieIngots[i]); #IE Arc Furnace
-  // ArcFurnace.addRecipe(tfNuggets[i] * 2, input, <ImmersiveEngineering:material:13>, 100, 512); #IE Arc Furnace (2 - 2,5x output)
-
-}
+  // ArcFurnace.addRecipe(tfNuggets[i] * 2, input, <ImmersiveEngineering:material:13>, 100, 512); 
+// }

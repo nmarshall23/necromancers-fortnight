@@ -20,10 +20,11 @@ Progression
 ##1. Subsistence Farming
 
 Tasks: 
- 1. Collect seeds
- 2. Make a simple farm
- 3. Craft a chopping block to split logs into planks. 
- 4. Build a kitchen? maybe repair and find the parts.
+ 1. Build Shelter, while Mobs do not spawn on the surface, it is nice to have a roof over your head.
+ 2. Collect seeds, how?
+ 3. Make a simple farm, make a Ceramic Bucket. 
+ 4. Craft a chopping block to split logs into planks. 
+ 5. Build a kitchen? maybe repair and find the parts.
  5. Tinker's crafting station, etc.
  6. Hemp Farm for creating a Windmill
 
@@ -36,12 +37,14 @@ Capability:
  - Ingot to Wires 4:1, with wirecuters
 
 
-##2. Beginning of Mechanical Power
+##2. Expanding and Preparing
 
 Tasks:
- 1. Build a Cauldron, heat with Charcoal blocks.
- 2. Have enought food for Handcrank and Millstone.
- 3. Mill Hemp to make Windmill
+ 1. Go Mining, be careful there are monsters down there.
+ 2. Build a Cauldron, heat with Charcoal blocks.
+ 3. Locate and Tame Chickens, Cows, Pigs.
+ 4. Have enought food for Handcrank and Millstone.
+ 5. Mill Hemp to make Windmill
 
 Capability:
  - Cook food in Cauldron? What about Blockhead Oven?
@@ -54,10 +57,9 @@ Requirements: Hemp Cloth, Gold, Restone
 Tasks:
  1. Craft Windmil blades, Gearbox, and axles
  1. Build a Windmill
- 2. Tame Chickens, Cows, Pigs. 
- 3. Tinkers Smeltery
- 4. IE Coke Furnice
- 5. Start Leather Tanning, with Millstone, and Cauldron
+ 2. Tinkers Smeltery
+ 3. IE Coke Furnice
+ 4. Start Leather Tanning, with Millstone, and Cauldron
 
 Capability:
  - Ores output *1.5
@@ -128,7 +130,7 @@ Tasks:
 
 Capability:
  * Ores output *4
- * Ingot to Plate 2:3, with a Metal Press
+ * Ingot to Plate 1:1, with a Metal Press
  * Ingot to Wires 1:2, with a Metal Press
 
 
