@@ -13,6 +13,9 @@
 
 // ================================================================================
 //#MARKER REMOVE
+
+recipes.remove(<randomthings:advanceditemcollector>);
+recipes.remove(<randomthings:itemcollector>);
 recipes.remove(<actuallyadditions:block_furnace_double>);
 recipes.remove(<actuallyadditions:block_grinder_double>);
 recipes.remove(<actuallyadditions:block_grinder>);
@@ -23,6 +26,7 @@ recipes.remove(<actuallyadditions:block_grinder>);
 
 // ================================================================================
 //#MARKER REMOVE SHAPELESS
+
 
 
 // ================================================================================
@@ -37,6 +41,12 @@ recipes.remove(<actuallyadditions:block_grinder>);
 
 // ================================================================================
 //#MARKER ADD SHAPED
+
+
+
+
+
+
 
 
 

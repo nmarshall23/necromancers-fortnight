@@ -40,7 +40,7 @@ chatHeightUnfocused:0.44366196
 chatScale:1.0
 chatWidth:1.0
 showInventoryAchievementHint:false
-mipmapLevels:0
+mipmapLevels:2
 forceUnicodeFont:false
 reducedDebugInfo:false
 useNativeTransport:true
@@ -96,6 +96,7 @@ key_quark.keybind.emote.point:0
 key_quark.keybind.emote.shrug:0
 key_quark.keybind.emote.facepalm:0
 key_quark.keybind.emote.headbang:0
+key_quark.keybind.lockBuilding:0
 key_quark.keybind.dropoff:0
 key_quark.keybind.changeHotbar:0
 key_quark.keybind.chestSort:0
@@ -103,7 +104,6 @@ key_quark.keybind.chestDropoff:0
 key_quark.keybind.chestMerge:0
 key_quark.keybind.chestRestock:0
 key_quark.keybind.playerSort:0
-key_quark.keybind.lockBuilding:0
 key_Toggle Magnet:50
 key_bloodmagic.keybind.open_holding:0
 key_bloodmagic.keybind.cycle_holding_pos:0
