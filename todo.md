@@ -2,17 +2,16 @@
 Test in Game
 ------------
 
-Embers Block breaker does it silk touch?
+Embers Block breaker does it silk touch? No.
 
 Tinkers Tank what is the capacity compared to the Ember Resivour?
 What other Fluid Containers are in the pack?
-
 
 Should Despencer and Dropper require a Redstone Latch?
 
 Tinkers, Can Harvest Levels be Capped? Nether Ores should require Steel.
 
-RandomThings adds a rain sheild, what should it require. It's very useful for Minecolonies.
+RandomThings adds a rain sheild, what should it require. Does it work with Minecolonies, Better with Mods?
 
 Compare how Embers Pipes work vs IE belts.
 
@@ -31,7 +30,7 @@ Quark
 -----
 Should Weather Sensor, be easyer to get? BWM also adds a weather sensor but it costs a dimond?
 Hotbar Changer, is this OP?
-Do Chickens still Shed feathers? Can I Shear them for feathers?
+Do Chickens still Shed feathers? Can I Shear them for feathers? 
 Need another use for Witch Hats. 
 
 Add renewable glowstone from Glowshrooms? Glowshrooms are found in underground biomes under mountains and mushroom islands.
