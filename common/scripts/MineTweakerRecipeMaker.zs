@@ -14,6 +14,8 @@
 // ================================================================================
 //#MARKER REMOVE
 
+recipes.remove(<actuallyadditions:block_atomic_reconstructor>);
+
 recipes.remove(<randomthings:advanceditemcollector>);
 recipes.remove(<randomthings:itemcollector>);
 recipes.remove(<actuallyadditions:block_furnace_double>);

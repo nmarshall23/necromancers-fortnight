@@ -114,6 +114,7 @@ key_Scene2 start/pause:0
 key_Scene3 start/pause:0
 key_Scene reset:0
 key_Quest Log:0
+key_Toggle Magnetism Suppressor:49
 key_key.xu2.searchForItems:0
 key_key.ftbu.guide:0
 key_key.ftbu.warp:0
