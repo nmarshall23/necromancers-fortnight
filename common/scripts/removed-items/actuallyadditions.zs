@@ -1,6 +1,6 @@
 import minetweaker.item.IIngredient;
 import mods.jei.JEI.removeAndHide;
-
+/*
 val itemsToRemoveInAA = [
  <actuallyadditions:item_boots_crystal_white>,
  <actuallyadditions:item_boots_crystal_green>,
@@ -112,3 +112,4 @@ val itemsToRemoveInAA = [
 for item in itemsToRemoveInAA {
   removeAndHide(item);
 }
+*/

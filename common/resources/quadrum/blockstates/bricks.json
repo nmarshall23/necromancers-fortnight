@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "variant=unfired_blast_brick": { "model": "quadrum:unfired_blast_brick" }
+   }
+}

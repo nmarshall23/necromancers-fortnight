@@ -7,7 +7,8 @@
     "Bonemeal": false,
     "Animal Eggs": false,
     "Pams Harvestcraft Seeds": true,
-    "Natura Saplings": true
+    "Natura Saplings": false,
+    "Forestry Saplings": false
   },
   "defaults payment": {
     "__comment": "You can define custom payment items for the default entries here.",
@@ -17,7 +18,8 @@
     "Bonemeal": "1*minecraft:emerald:0",
     "Animal Eggs": "1*minecraft:emerald:0",
     "Pams Harvestcraft Seeds": "3*minecraft:emerald:0",
-    "Natura Saplings": "1*minecraft:emerald:0"
+    "Natura Saplings": "1*minecraft:emerald:0",
+    "Forestry Saplings": "2*minecraft:emerald:0"
   },
   "defaults blacklist": [
     "examplemod:example_item"

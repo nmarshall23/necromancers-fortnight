@@ -1,0 +1,15 @@
+{
+  "name": "bricks",
+  "creative_tab": "materials",
+  "variants": ["unfired_blast_brick"],
+  "traits": {
+    "physical": {
+      "default": {
+        "material": "ROCK",
+        "hardness": 2,
+        "resistance": 2,
+        "light": 0
+      }
+    }
+  }
+}

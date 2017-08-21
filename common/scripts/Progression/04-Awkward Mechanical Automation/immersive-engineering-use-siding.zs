@@ -1,5 +1,5 @@
 /**
- * 
+ * Water Wheel and Windmill require siding, from the sawmill.
  */
 
 // Water wheel part

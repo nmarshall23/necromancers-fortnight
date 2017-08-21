@@ -1,75 +1,21 @@
-# actuallyadditions
-## mods.actuallyadditions.AtomicReconstructor
-
-//IItemStack output
-
-```mods.actuallyadditions.AtomicReconstructor.removeRecipe(IItemStack output);```
-
-//IItemStack output, IItemStack input, int energyUsed
-
-```mods.actuallyadditions.AtomicReconstructor.addRecipe(IItemStack output, IItemStack input, int energyUsed);```
-
-# actuallyadditions
-## mods.actuallyadditions.TreasureChest
-
-//IItemStack returnItem, int chance, int minAmount, int maxAmount
-
-```mods.actuallyadditions.TreasureChest.addLoot(IItemStack returnItem, int chance, int minAmount, int maxAmount);```
-
-//IItemStack returnItem
-
-```mods.actuallyadditions.TreasureChest.removeLoot(IItemStack returnItem);```
-
-# actuallyadditions
-## mods.actuallyadditions.Empowerer
-
-//IItemStack output
-
-```mods.actuallyadditions.Empowerer.removeRecipe(IItemStack output);```
-
-//IItemStack output, IItemStack input, IItemStack modifier1, IItemStack modifier2, IItemStack modifier3, IItemStack modifier4, int energyPerStand, int time, <span style="color:red">float[] particleColourArray</span>
-
-```mods.actuallyadditions.Empowerer.addRecipe(IItemStack output, IItemStack input, IItemStack modifier1, IItemStack modifier2, IItemStack modifier3, IItemStack modifier4, int energyPerStand, int time, float[] particleColourArray);```
-
-# actuallyadditions
-## mods.actuallyadditions.Crusher
-
-//IItemStack output
-
-```mods.actuallyadditions.Crusher.removeRecipe(IItemStack output);```
-
-//IItemStack output, IItemStack input, <span style="color:red">IItemStack outputSecondary</span>, <span style="color:red">int outputSecondaryChance</span>
-
-```mods.actuallyadditions.Crusher.addRecipe(IItemStack output, IItemStack input, IItemStack outputSecondary, int outputSecondaryChance);```
-
 # tconstruct
-## mods.tconstruct.Drying
+## mods.tconstruct.Casting
 
-//IIngredient output
+//IItemStack output, ILiquidStack liquid, <span style="color:red">IItemStack cast</span>, <span style="color:red">boolean consumeCast</span>, <span style="color:red">int timeInTicks</span>
 
-```mods.tconstruct.Drying.removeRecipe(IIngredient output);```
+```mods.tconstruct.Casting.addTableRecipe(IItemStack output, ILiquidStack liquid, IItemStack cast, boolean consumeCast, int timeInTicks);```
 
-//IItemStack input, IItemStack output, int timeInTicks
+//IIngredient output, <span style="color:red">IIngredient liquid</span>, <span style="color:red">IItemStack cast</span>
 
-```mods.tconstruct.Drying.addRecipe(IItemStack input, IItemStack output, int timeInTicks);```
+```mods.tconstruct.Casting.removeBasinRecipe(IIngredient output, IIngredient liquid, IItemStack cast);```
 
-# actuallyadditions
-## mods.actuallyadditions.BallOfFur
+//IIngredient output, <span style="color:red">IIngredient liquid</span>, <span style="color:red">IItemStack cast</span>
 
-//IItemStack output, int chance
+```mods.tconstruct.Casting.removeTableRecipe(IIngredient output, IIngredient liquid, IItemStack cast);```
 
-```mods.actuallyadditions.BallOfFur.addReturn(IItemStack output, int chance);```
+//IItemStack output, ILiquidStack liquid, <span style="color:red">IItemStack cast</span>, <span style="color:red">boolean consumeCast</span>, <span style="color:red">int timeInTicks</span>
 
-//IItemStack output
-
-```mods.actuallyadditions.BallOfFur.removeReturn(IItemStack output);```
-
-# actuallyadditions
-## mods.actuallyadditions.Coffee
-
-//IItemStack input, IPotion[] potionEffects, int[] effectDuration, int maxAmplifier
-
-```mods.actuallyadditions.Coffee.addRecipe(IItemStack input, IPotion[] potionEffects, int[] effectDuration, int maxAmplifier);```
+```mods.tconstruct.Casting.addBasinRecipe(IItemStack output, ILiquidStack liquid, IItemStack cast, boolean consumeCast, int timeInTicks);```
 
 # tconstruct
 ## mods.tconstruct.Modifiers
@@ -78,16 +24,109 @@
 
 ```mods.tconstruct.Modifiers.remove(String mod);```
 
-# tconstruct
-## mods.tconstruct.Smeltery
+# forestry
+## mods.forestry.Carpenter
 
-//ILiquidStack liquid, <span style="color:red">int temp</span>
+//IIngredient output, <span style="color:red">IIngredient fluidInput</span>
 
-```mods.tconstruct.Smeltery.addFuel(ILiquidStack liquid, int temp);```
+```mods.forestry.Carpenter.removeRecipe(IIngredient output, IIngredient fluidInput);```
+
+//IItemStack output, IIngredient[][] ingredients, int packagingTime, <span style="color:red">ILiquidStack fluidInput</span>, <span style="color:red">IItemStack box</span>
+
+```mods.forestry.Carpenter.addRecipe(IItemStack output, IIngredient[][] ingredients, int packagingTime, ILiquidStack fluidInput, IItemStack box);```
+
+# forestry
+## mods.forestry.Still
+
+//IIngredient output, <span style="color:red">ILiquidStack fluidInput</span>
+
+```mods.forestry.Still.removeRecipe(IIngredient output, ILiquidStack fluidInput);```
+
+//ILiquidStack fluidOutput, ILiquidStack fluidInput, int timePerUnit
+
+```mods.forestry.Still.addRecipe(ILiquidStack fluidOutput, ILiquidStack fluidInput, int timePerUnit);```
+
+# chisel
+## mods.chisel.Groups
+
+//String groupName
+
+```mods.chisel.Groups.removeGroup(String groupName);```
+
+//IItemStack stack
+
+```mods.chisel.Groups.removeVariation(IItemStack stack);```
+
+//String groupName, IItemStack stack
+
+```mods.chisel.Groups.addVariation(String groupName, IItemStack stack);```
+
+//String groupName
+
+```mods.chisel.Groups.addGroup(String groupName);```
+
+# forestry
+## mods.forestry.Moistener
+
+//IIngredient output
+
+```mods.forestry.Moistener.removeRecipe(IIngredient output);```
+
+//IItemStack output, IItemStack input, int packagingTime
+
+```mods.forestry.Moistener.addRecipe(IItemStack output, IItemStack input, int packagingTime);```
+
+//IIngredient moistenerItem
+
+```mods.forestry.Moistener.removeFuel(IIngredient moistenerItem);```
+
+//IItemStack item, IItemStack product, int moistenerValue, int stage
+
+```mods.forestry.Moistener.addFuel(IItemStack item, IItemStack product, int moistenerValue, int stage);```
+
+# forestry
+## mods.forestry.Fermenter
 
 //IIngredient input
 
-```mods.tconstruct.Smeltery.removeFuel(IIngredient input);```
+```mods.forestry.Fermenter.removeRecipe(IIngredient input);```
+
+//ILiquidStack fluidOutput, IItemStack resource, ILiquidStack fluidInput, int fermentationValue, float fluidOutputModifier
+
+```mods.forestry.Fermenter.addRecipe(ILiquidStack fluidOutput, IItemStack resource, ILiquidStack fluidInput, int fermentationValue, float fluidOutputModifier);```
+
+//IIngredient fermenterItem
+
+```mods.forestry.Fermenter.removeFuel(IIngredient fermenterItem);```
+
+//IItemStack item, int  fermentPerCycle, int burnDuration
+
+```mods.forestry.Fermenter.addFuel(IItemStack item, int  fermentPerCycle, int burnDuration);```
+
+# forestry
+## mods.forestry.ThermionicFabricator
+
+//IIngredient itemInput
+
+```mods.forestry.ThermionicFabricator.removeSmelting(IIngredient itemInput);```
+
+//int fluidOutput, IItemStack itemInput, int meltingPoint
+
+```mods.forestry.ThermionicFabricator.addSmelting(int fluidOutput, IItemStack itemInput, int meltingPoint);```
+
+# forestry
+## mods.forestry.Centrifuge
+
+//IIngredient input
+
+```mods.forestry.Centrifuge.removeRecipe(IIngredient input);```
+
+//WeightedItemStack[] output, IItemStack ingredients, int packagingTime
+
+```mods.forestry.Centrifuge.addRecipe(WeightedItemStack[] output, IItemStack ingredients, int packagingTime);```
+
+# tconstruct
+## mods.tconstruct.Smeltery
 
 //ILiquidStack output, IEntityDefinition entity
 
@@ -113,52 +152,33 @@
 
 ```mods.tconstruct.Smeltery.removeMelting(IItemStack input);```
 
-# chisel
-## mods.chisel.Groups
+//IIngredient input
 
-//String groupName
+```mods.tconstruct.Smeltery.removeFuel(IIngredient input);```
 
-```mods.chisel.Groups.removeGroup(String groupName);```
+//ILiquidStack liquid, <span style="color:red">int temp</span>
 
-//IItemStack stack
+```mods.tconstruct.Smeltery.addFuel(ILiquidStack liquid, int temp);```
 
-```mods.chisel.Groups.removeVariation(IItemStack stack);```
+# forestry
+## mods.forestry.Squeezer
 
-//String groupName, IItemStack stack
+//IIngredient liquid, <span style="color:red">IIngredient[] ingredients</span>
 
-```mods.chisel.Groups.addVariation(String groupName, IItemStack stack);```
+```mods.forestry.Squeezer.removeRecipe(IIngredient liquid, IIngredient[] ingredients);```
 
-//String groupName
+//ILiquidStack fluidOutput, IItemStack[] ingredients, int timePerItem, <span style="color:red">WeightedItemStack itemOutput</span>
 
-```mods.chisel.Groups.addGroup(String groupName);```
-
-# actuallyadditions
-## mods.actuallyadditions.Compost
-
-//IItemStack output
-
-```mods.actuallyadditions.Compost.removeRecipe(IItemStack output);```
-
-//IItemStack output, IItemStack outputDisplay, IItemStack input, IItemStack inputDisplay
-
-```mods.actuallyadditions.Compost.addRecipe(IItemStack output, IItemStack outputDisplay, IItemStack input, IItemStack inputDisplay);```
+```mods.forestry.Squeezer.addRecipe(ILiquidStack fluidOutput, IItemStack[] ingredients, int timePerItem, WeightedItemStack itemOutput);```
 
 # tconstruct
-## mods.tconstruct.Casting
+## mods.tconstruct.Drying
 
-//IItemStack output, ILiquidStack liquid, <span style="color:red">IItemStack cast</span>, <span style="color:red">boolean consumeCast</span>, <span style="color:red">int timeInTicks</span>
+//IIngredient output
 
-```mods.tconstruct.Casting.addBasinRecipe(IItemStack output, ILiquidStack liquid, IItemStack cast, boolean consumeCast, int timeInTicks);```
+```mods.tconstruct.Drying.removeRecipe(IIngredient output);```
 
-//IItemStack output, ILiquidStack liquid, <span style="color:red">IItemStack cast</span>, <span style="color:red">boolean consumeCast</span>, <span style="color:red">int timeInTicks</span>
+//IItemStack input, IItemStack output, int timeInTicks
 
-```mods.tconstruct.Casting.addTableRecipe(IItemStack output, ILiquidStack liquid, IItemStack cast, boolean consumeCast, int timeInTicks);```
-
-//IIngredient output, <span style="color:red">IIngredient liquid</span>, <span style="color:red">IItemStack cast</span>
-
-```mods.tconstruct.Casting.removeBasinRecipe(IIngredient output, IIngredient liquid, IItemStack cast);```
-
-//IIngredient output, <span style="color:red">IIngredient liquid</span>, <span style="color:red">IItemStack cast</span>
-
-```mods.tconstruct.Casting.removeTableRecipe(IIngredient output, IIngredient liquid, IItemStack cast);```
+```mods.tconstruct.Drying.addRecipe(IItemStack input, IItemStack output, int timeInTicks);```
 

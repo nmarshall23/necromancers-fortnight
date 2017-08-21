@@ -2,9 +2,26 @@
  *
  */
 
+
 import minetweaker.item.IItemStack;
 import minetweaker.item.IIngredient;
 import minetweaker.liquid.ILiquidStack;
+
+var plates = [
+ <embers:plate_copper>,
+ <embers:plate_aluminum>,
+ <embers:plate_lead>,
+ <embers:plate_silver>,
+ <embers:plate_nickel>,
+ <embers:plate_iron>,
+ <embers:plate_gold>,
+ <embers:plate_bronze>,
+ <embers:plate_electrum>,
+ <embers:plate_tin>,
+ <immersiveengineering:metal:38>, // Steel
+ <immersiveengineering:metal:36>, // Constantan
+ <immersiveengineering:metal:35>  // Uranium
+] as IItemStack[];
 
 var ingotOreDic = [
  <ore:ingotCopper>,
@@ -12,15 +29,25 @@ var ingotOreDic = [
  <ore:ingotLead>,
  <ore:ingotSilver>,
  <ore:ingotNickel>,
- <ore:ingotUranium>,
- <ore:ingotConstantan>,
- <ore:ingotElectrum>,
- <ore:ingotSteel>,
  <ore:ingotIron>,
  <ore:ingotGold>,
  <ore:ingotBronze>,
- <ore:ingotTin>
+ <ore:ingotElectrum>,
+ <ore:ingotTin>,
+ <ore:ingotSteel>,
+ <ore:ingotConstantan>,
+ <ore:ingotUranium>,
 ] as IIngredient[];
+
+for i, plateItemStack in plates {
+ recipes.removeShapeless(plateItemStack, [ingotOreDic[i], <immersiveengineering:tool>]);
+}
+
+recipes.addShapeless(<immersiveengineering:metal:35>, [<ore:ingotUranium>, <ore:ingotUranium>, <ore:ingotUranium>, <ore:ingotUranium>, <embers:tinker_hammer>]);
+recipes.addShapeless(<immersiveengineering:metal:38>, [<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>, <embers:tinker_hammer>]);
+recipes.addShapeless(<immersiveengineering:metal:36>, [<ore:ingotConstantan>, <ore:ingotConstantan>, <ore:ingotConstantan>, <ore:ingotConstantan>, <embers:tinker_hammer>]);
+/*
+
 
 var plates = [
  <immersiveengineering:metal:30>, // copper plate
@@ -88,4 +115,4 @@ for i, plateItemStack in plates {
  recipes.removeShapeless(plateItemStack, [ingotOreDic[i], <immersiveengineering:tool>]);
 }
 
-
+*/

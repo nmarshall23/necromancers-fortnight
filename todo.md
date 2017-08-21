@@ -87,34 +87,29 @@ IE Coke Furnice, requires Hemp fibers.
 ## 4. Awkward Mechanical Automation
 
  - [X] Embers Pipes, require Strips of Tanned Leather, and redstone latch.
- - [ ] Tinkers Silky Gem, gives silk touch, requires Tanned Leather.
- - [ ] Toolbelt, requires Strips of Tanned Leather.
+ - [X] Tinkers Silky Gem, gives silk touch, requires Tanned Leather.
+ - [X] Toolbelt, requires Strips of Tanned Leather.
 
 ## 5. Nether Plunge / Bounty of Fire?
 
-Embers Item Vacuum, Needs Redstone Latch, and... 
-IE Primitive Blast Furnice, Blast Bricks are cooked in a Kiln. 
-
-Actually Additions Potion Rings, they run on blaze power. 
-Actually Additions Spawn reprogrammer.
+ - [X] Embers Item Vacuum, Needs Redstone Latch, and... 
+ - [X] IE Primitive Blast Furnice, Blast Bricks are cooked in a Kiln. 
 
 
 ## 6. Riddle of Steel
 
 Random Things Vacuum.
 Vanilla Hoppers?
-IE Belts, requires Strips of Tanned Leather and Steel.
-Scannable Scanner, requires RF and Steel.
+
 
 ## 7. Secrets of Redstone 
 
-RF generators require item made with Soul Urn.
+ - [X] RF generators require item made with Soul Urn.
 
 ## 8. Applied Energetics
 
 AE machines should use Aluminum, and steel.
-Actually Additions Atomic Reconstructor, requires steel.
-What other things Actually Additions are accessable?
+
 
 ## 9. Breath of the Dragon
 
