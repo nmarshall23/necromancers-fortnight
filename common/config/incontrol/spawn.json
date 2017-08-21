@@ -1,6 +1,6 @@
 [
 {
- "maxspawndist": 128.0,
+ "maxspawndist": 256.0,
  "hostile": true,
  "minheight": 60,
  "result": "deny"
@@ -8,6 +8,35 @@
 {
  "maxheight": 60,
  "mob": ["minecraft:witch"],
+ "result": "deny"
+},
+{
+ "maxspawndist": 256.0,
+ "structure": "Village",
+ "mob": "minecraft:villager",
+ "result": "deny"
+},
+{
+ "structure": "Village",
+ "hostile": true,
+ "seesky": true,
+ "result": "deny"
+},
+{
+ "mob": "embers:ancient_golem", 
+ "structure": "Stronghold",
+ "result": "default",
+ "healthmultiply": 1.5,
+ "damageadd": 2
+},
+{
+ "hostile": true,
+ "structure": "Stronghold",
+ "result": "deny"
+},
+{
+ "mob": "minecraft:skeleton",
+ "dimension": -1,
  "result": "deny"
 }
 ]
