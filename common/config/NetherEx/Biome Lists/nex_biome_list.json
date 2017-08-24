@@ -6,15 +6,13 @@
             "biomes": [
                 {
                     "biomeId": "torrid_wasteland",
-                    "weight": 6,
+                    "weight": 15,
                     "climateType": "hot",
                     "topBlock": { "blockId": "nex:block_netherrack", "meta": 0 },
                     "fillerBlock": { "blockId": "nex:block_netherrack", "meta": 0 },
                     "oceanBlock": { "blockId": "minecraft:lava", "meta": 0 },
                     "entitySpawnList": [
-                        { "entityId": "nex:neutral_salamander", "creatureType": "monster", "weight": 100, "minGroupCount": 3, "maxGroupCount": 6 },
-                        { "entityId": "nex:monster_ember", "creatureType": "monster", "weight": 50, "minGroupCount": 4, "maxGroupCount": 6 },
-                        { "entityId": "minecraft:magma_cube", "creatureType": "monster", "weight": 25, "minGroupCount": 4, "maxGroupCount": 4 }
+                        { "entityId": "nex:neutral_salamander", "creatureType": "monster", "weight": 100, "minGroupCount": 3, "maxGroupCount": 6 },   { "entityId": "minecraft:zombie_pigman", "creatureType": "monster", "weight": 100, "minGroupCount": 4, "maxGroupCount": 4 },   { "entityId": "minecraft:magma_cube", "creatureType": "monster", "weight": 25, "minGroupCount": 4, "maxGroupCount": 4 }
                     ],
                     "featureList": [
                         {
@@ -49,6 +47,24 @@
                             "rarity": 10,
                             "minHeight": 32,
                             "maxHeight": 128
+                        },
+                        {
+                            "featureType": "ore",
+                            "blockToSpawn": { "blockId": "tconstruct:ore", "meta": 1 },
+                            "targetBlock": { "blockId": "minecraft:netherrack", "meta": 0 },
+                            "size": 5,
+                            "rarity": 7,
+                            "minHeight": 10,
+                            "maxHeight": 118
+                        },
+                        {
+                            "featureType": "ore",
+                            "blockToSpawn": { "blockId": "tconstruct:ore", "meta": 0 },
+                            "targetBlock": { "blockId": "minecraft:netherrack", "meta": 0 },
+                            "size": 5,
+                            "rarity": 7,
+                            "minHeight": 10,
+                            "maxHeight": 118
                         },
                         {
                             "featureType": "ore",
@@ -220,7 +236,7 @@
                 },
                 {
                     "biomeId": "hell",
-                    "weight": 10,
+                    "weight": 20,
                     "climateType": "warm",
                     "topBlock": { "blockId": "minecraft:netherrack", "meta": 0 },
                     "fillerBlock": { "blockId": "minecraft:netherrack", "meta": 0 },
@@ -228,10 +244,8 @@
                     "entitySpawnList": [
                         { "entityId": "minecraft:zombie_pigman", "creatureType": "monster", "weight": 100, "minGroupCount": 4, "maxGroupCount": 4 },
                         { "entityId": "minecraft:ghast", "creatureType": "monster", "weight": 50, "minGroupCount": 4, "maxGroupCount": 4 },
-                        { "entityId": "nex:monster_ember", "creatureType": "monster", "weight": 25, "minGroupCount": 4, "maxGroupCount": 6 },
                         { "entityId": "minecraft:blaze", "creatureType": "monster", "weight": 3, "minGroupCount": 4, "maxGroupCount": 4 },
-                        { "entityId": "minecraft:magma_cube", "creatureType": "monster", "weight": 2, "minGroupCount": 4, "maxGroupCount": 4 },
-                        { "entityId": "minecraft:enderman", "creatureType": "monster", "weight": 1, "minGroupCount": 4, "maxGroupCount": 4 }
+                        { "entityId": "minecraft:magma_cube", "creatureType": "monster", "weight": 2, "minGroupCount": 4, "maxGroupCount": 4 }
                     ],
                     "featureList": [
                         {
@@ -255,7 +269,7 @@
                         {
                             "featureType": "clumped",
                             "blockToSpawn": { "blockId": "minecraft:glowstone", "meta": 0 },
-                            "rarity": 10,
+                            "rarity": 15,
                             "randomRarity": true,
                             "minHeight": 32,
                             "maxHeight": 128
@@ -263,7 +277,7 @@
                         {
                             "featureType": "clumped",
                             "blockToSpawn": { "blockId": "minecraft:glowstone", "meta": 0 },
-                            "rarity": 10,
+                            "rarity": 15,
                             "minHeight": 32,
                             "maxHeight": 128
                         },
@@ -287,10 +301,28 @@
                         },
                         {
                             "featureType": "ore",
+                            "blockToSpawn": { "blockId": "tconstruct:ore", "meta": 1 },
+                            "targetBlock": { "blockId": "minecraft:netherrack", "meta": 0 },
+                            "size": 5,
+                            "rarity": 8,
+                            "minHeight": 10,
+                            "maxHeight": 118
+                        },
+                        {
+                            "featureType": "ore",
+                            "blockToSpawn": { "blockId": "tconstruct:ore", "meta": 0 },
+                            "targetBlock": { "blockId": "minecraft:netherrack", "meta": 0 },
+                            "size": 5,
+                            "rarity": 8,
+                            "minHeight": 10,
+                            "maxHeight": 118
+                        },
+                        {
+                            "featureType": "ore",
                             "blockToSpawn": { "blockId": "minecraft:quartz_ore", "meta": 0 },
                             "targetBlock": { "blockId": "minecraft:netherrack", "meta": 0 },
-                            "size": 14,
-                            "rarity": 16,
+                            "size": 15,
+                            "rarity": 18,
                             "minHeight": 10,
                             "maxHeight": 118
                         },
@@ -317,7 +349,7 @@
                             "blockToSpawn": { "blockId": "minecraft:flowing_lava", "meta": 0 },
                             "targetBlock": { "blockId": "minecraft:netherrack", "meta": 0 },
                             "hidden": true,
-                            "rarity": 16,
+                            "rarity": 10,
                             "minHeight": 10,
                             "maxHeight": 118
                         },
@@ -546,26 +578,17 @@
                 },
                 {
                     "biomeId": "ruthless_sands",
-                    "weight": 2,
+                    "weight": 13,
                     "climateType": "temperate",
                     "topBlock": { "blockId": "minecraft:soul_sand", "meta": 0 },
                     "fillerBlock": { "blockId": "nex:block_netherrack", "meta": 3 },
                     "oceanBlock": { "blockId": "minecraft:lava", "meta": 0 },
                     "entitySpawnList": [
                         { "entityId": "nex:monster_spinout", "creatureType": "monster", "weight": 100, "minGroupCount": 1, "maxGroupCount": 4 },
-                        { "entityId": "minecraft:wither_skeleton", "creatureType": "monster", "weight": 65, "minGroupCount": 1, "maxGroupCount": 4 },
+                        { "entityId": "minecraft:wither_skeleton", "creatureType": "monster", "weight": 55, "minGroupCount": 1, "maxGroupCount": 4 },
                         { "entityId": "minecraft:zombie_pigman", "creatureType": "monster", "weight": 45, "minGroupCount": 1, "maxGroupCount": 4 }
                     ],
                     "featureList": [
-                        {
-                            "featureType": "fluid",
-                            "blockToSpawn": { "blockId": "minecraft:flowing_lava", "meta": 0 },
-                            "targetBlock": { "blockId": "nex:block_netherrack", "meta": 3 },
-                            "hidden": false,
-                            "rarity": 8,
-                            "minHeight": 32,
-                            "maxHeight": 128
-                        },
                         {
                             "featureType": "clumped",
                             "blockToSpawn": { "blockId": "minecraft:glowstone", "meta": 0 },
@@ -577,16 +600,34 @@
                         {
                             "featureType": "clumped",
                             "blockToSpawn": { "blockId": "minecraft:glowstone", "meta": 0 },
-                            "rarity": 10,
+                            "rarity": 20,
                             "minHeight": 32,
                             "maxHeight": 128
                         },
                         {
                             "featureType": "ore",
+                            "blockToSpawn": { "blockId": "tconstruct:ore", "meta": 1 },
+                            "targetBlock": { "blockId": "minecraft:netherrack", "meta": 0 },
+                            "size": 8,
+                            "rarity": 12,
+                            "minHeight": 10,
+                            "maxHeight": 118
+                        },
+                        {
+                            "featureType": "ore",
+                            "blockToSpawn": { "blockId": "tconstruct:ore", "meta": 0 },
+                            "targetBlock": { "blockId": "minecraft:netherrack", "meta": 0 },
+                            "size": 4,
+                            "rarity": 8,
+                            "minHeight": 10,
+                            "maxHeight": 118
+                        },
+                        {
+                            "featureType": "ore",
                             "blockToSpawn": { "blockId": "nex:ore_quartz", "meta": 3 },
                             "targetBlock": { "blockId": "nex:block_netherrack", "meta": 3 },
-                            "size": 14,
-                            "rarity": 24,
+                            "size": 34,
+                            "rarity": 30,
                             "minHeight": 10,
                             "maxHeight": 118
                         },
@@ -726,15 +767,13 @@
                 },
                 {
                     "biomeId": "fungi_forest",
-                    "biome_weight": 0,
+                    "biome_weight": 8,
                     "climateType": "cool",
                     "topBlock": { "blockId": "nex:block_hyphae", "meta": 0 },
                     "fillerBlock": { "blockId": "nex:block_netherrack", "meta": 2 },
                     "oceanBlock": { "blockId": "minecraft:lava", "meta": 0 },
                     "entitySpawnList": [
-                        { "entityId": "nex:neutral_mogus", "creatureType": "monster", "weight": 100, "minGroupCount": 4, "maxGroupCount": 6 },
-                        { "entityId": "nex:monster_spore_creeper", "creatureType": "monster", "weight": 50, "minGroupCount": 1, "maxGroupCount": 4 },
-                        { "entityId": "nex:monster_spore", "creatureType": "monster", "weight": 25, "minGroupCount": 1, "maxGroupCount": 4 }
+                        { "entityId": "nex:neutral_mogus", "creatureType": "monster", "weight": 100, "minGroupCount": 4, "maxGroupCount": 6 },   { "entityId": "minecraft:wither_skeleton", "creatureType": "monster", "weight": 55, "minGroupCount": 1, "maxGroupCount": 1 },   { "entityId": "nex:monster_bone_spider", "creatureType": "monster", "weight": 35, "minGroupCount": 1, "maxGroupCount": 1 }
                     ],
                     "featureList": [
                         {
@@ -748,9 +787,27 @@
                         {
                             "featureType": "clumped",
                             "blockToSpawn": { "blockId": "minecraft:glowstone", "meta": 0 },
-                            "rarity": 10,
+                            "rarity": 12,
                             "minHeight": 32,
                             "maxHeight": 128
+                        },
+                        {
+                            "featureType": "ore",
+                            "blockToSpawn": { "blockId": "tconstruct:ore", "meta": 1 },
+                            "targetBlock": { "blockId": "minecraft:netherrack", "meta": 0 },
+                            "size": 4,
+                            "rarity": 5,
+                            "minHeight": 10,
+                            "maxHeight": 118
+                        },
+                        {
+                            "featureType": "ore",
+                            "blockToSpawn": { "blockId": "tconstruct:ore", "meta": 0 },
+                            "targetBlock": { "blockId": "minecraft:netherrack", "meta": 0 },
+                            "size": 10,
+                            "rarity": 10,
+                            "minHeight": 10,
+                            "maxHeight": 118
                         },
                         {
                             "featureType": "ore",
@@ -896,7 +953,7 @@
                 },
                 {
                     "biomeId": "arctic_abyss",
-                    "weight": 1,
+                    "weight": 4,
                     "climateType": "cold",
                     "topBlock": { "blockId": "nex:block_ice_frostburn", "meta": 0 },
                     "fillerBlock": { "blockId": "nex:block_netherrack", "meta": 1 },
@@ -928,9 +985,27 @@
                         {
                             "featureType": "clumped",
                             "blockToSpawn": { "blockId": "minecraft:glowstone", "meta": 0 },
-                            "rarity": 10,
+                            "rarity": 25,
                             "minHeight": 32,
                             "maxHeight": 128
+                        },
+                        {
+                            "featureType": "ore",
+                            "blockToSpawn": { "blockId": "tconstruct:ore", "meta": 1 },
+                            "targetBlock": { "blockId": "minecraft:netherrack", "meta": 0 },
+                            "size": 6,
+                            "rarity": 6,
+                            "minHeight": 10,
+                            "maxHeight": 118
+                        },
+                        {
+                            "featureType": "ore",
+                            "blockToSpawn": { "blockId": "tconstruct:ore", "meta": 0 },
+                            "targetBlock": { "blockId": "minecraft:netherrack", "meta": 0 },
+                            "size": 12,
+                            "rarity": 8,
+                            "minHeight": 10,
+                            "maxHeight": 118
                         },
                         {
                             "featureType": "ore",

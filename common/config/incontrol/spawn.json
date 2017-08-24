@@ -1,12 +1,23 @@
 [
 {
- "maxspawndist": 256.0,
+ "maxspawndist": 160.0,
  "hostile": true,
+ "dimension": 0,
  "minheight": 60,
  "result": "deny"
 },
 {
+ "maxspawndist": 256.0,
+ "hostile": true,
+ "dimension": 0,
+ "minheight": 60,
+ "random": 0.75,
+ "result": "deny"
+},
+
+{
  "maxheight": 60,
+ "dimension": 0,
  "mob": ["minecraft:witch"],
  "result": "deny"
 },
@@ -28,6 +39,12 @@
  "result": "default",
  "healthmultiply": 1.5,
  "damageadd": 2
+},
+{
+ "mob": "embers:ancient_golem", 
+ "seesky": true,
+ "random": 0.5,
+ "result": "default"
 },
 {
  "hostile": true,
