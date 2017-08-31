@@ -22,7 +22,7 @@
     "server_info": true,
     "spawn": true,
     "loaded_chunks": true,
-    "home": true,
+    "home": false,
     "kickme": true
   },
   "general": {

@@ -12,7 +12,7 @@ val mcPlank = <minecraft:planks>.definition;
 
 //does this for <minecraft:wool:3> to <minecraft:wool:12>
 for i in 0 to 5 {
- Choppable.addRecipe(mcLog.makeStack(i), mcPlank.makeStack(i));
+ Choppable.addRecipe(mcLog.makeStack(i), mcPlank.makeStack(i), 1.0, 0.6);
 }
 
 var logs = [
@@ -40,6 +40,6 @@ var planks = [
 ] as IItemStack[];
 
 for idx, log in logs {
-  Choppable.addRecipe(log, planks[idx]);
+  Choppable.addRecipe(log, planks[idx], 1.0, 0.60);
 }
 

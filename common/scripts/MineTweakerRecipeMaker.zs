@@ -38,8 +38,10 @@ recipes.remove(<actuallyadditions:block_grinder>);
 
 
 
+
 // ================================================================================
 //#MARKER REMOVE SHAPED
+
 
 
 // recipes.removeShaped(<minecraft:leather_boots>, [[<ore:materialCloth>, <ore:materialCloth>], [<ore:materialCloth>, <ore:materialCloth>]]);
@@ -55,20 +57,32 @@ recipes.remove(<actuallyadditions:block_grinder>);
 
 
 
+
+
+
 // ================================================================================
 //#MARKER ADD SHAPED
 
 
+recipes.addShaped(<immersiveengineering:metal_device1:13>, [[<appliedenergistics2:quartz_glass>, <immersiveengineering:material:26>, <appliedenergistics2:quartz_glass>], [<appliedenergistics2:quartz_glass>, null, <appliedenergistics2:quartz_glass>], [<ore:slabTreatedWood>, <immersiveengineering:material:8>, <ore:slabTreatedWood>]]);
 
 
+recipes.remove(<packingtape:tape>);
+recipes.addShapeless(<packingtape:tape>, [<ore:slimeball>, <ore:string>, <ore:paper>]);
 
+recipes.remove(<earthworks:block_dry_stone>);
+
+recipes.addShapeless(<earthworks:block_dry_stone>, [<earthworks:itemslab_dry_stone>, <earthworks:itemslab_dry_stone>]);
+recipes.addShaped(<earthworks:block_dry_stone> * 5, [[null, <minecraft:stone>, null], [<minecraft:stone>, <minecraft:stone>, <minecraft:stone>], [null, <minecraft:stone>, null]]);
+recipes.addShapeless(<earthworks:block_dry_stone> * 3, [<earthworks:stair_dry_stone>, <earthworks:stair_dry_stone>, <earthworks:stair_dry_stone>, <earthworks:stair_dry_stone>]);
+
+recipes.addShaped(<earthworks:block_dry_stone>, [[<earthworks:itemslab_dry_stone>], [<earthworks:itemslab_dry_stone>]]);
 
 recipes.remove(<openradio:laseritem>);
 recipes.remove(<scannable:scanner>);
 
 recipes.addShaped(<openradio:laseritem>, [[<ore:plateCopper>, <minecraft:glass>, <ore:plateCopper>], [<immersiveengineering:material:26>, <ore:nuggetGold>, <immersiveengineering:material:26>], [<ore:plateIron>, <ore:oc:materialTransistor>, <ore:plateIron>]]);
 recipes.addShaped(<scannable:scanner>, [[<ore:stickAluminum>, null, <ore:stickAluminum>], [<embers:plate_iron>, <openradio:laseritem>, <embers:plate_iron>], [<embers:plate_iron>, <opencomputers:material:4>, <embers:plate_iron>]]);
-
 
 
 

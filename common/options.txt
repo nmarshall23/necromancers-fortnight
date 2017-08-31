@@ -81,11 +81,17 @@ key_key.hotbar.6:7
 key_key.hotbar.7:8
 key_key.hotbar.8:9
 key_key.hotbar.9:10
-key_cfg.keybind.SelectionBox:21:ALT
-key_cfg.keybind.Volume:0
-key_cfg.keybind.LightLevel:21:SHIFT
+key_cfg.keybind.SelectionBox:0
+key_cfg.keybind.Volume:40
 key_cfg.keybind.ChunkBorders:67
 key_presets.cfg.keybind.Presets:25
+key_quark.keybind.dropoff:0
+key_quark.keybind.changeHotbar:0
+key_quark.keybind.chestSort:0
+key_quark.keybind.chestDropoff:0
+key_quark.keybind.chestMerge:0
+key_quark.keybind.chestRestock:0
+key_quark.keybind.playerSort:0
 key_quark.keybind.emote.wave:0
 key_quark.keybind.emote.salute:0
 key_quark.keybind.emote.yes:0
@@ -97,40 +103,32 @@ key_quark.keybind.emote.shrug:0
 key_quark.keybind.emote.facepalm:0
 key_quark.keybind.emote.headbang:0
 key_quark.keybind.lockBuilding:0
-key_quark.keybind.dropoff:0
-key_quark.keybind.changeHotbar:0
-key_quark.keybind.chestSort:0
-key_quark.keybind.chestDropoff:0
-key_quark.keybind.chestMerge:0
-key_quark.keybind.chestRestock:0
-key_quark.keybind.playerSort:0
-key_csb_armorstand.key.openArmorStandGui:22
-key_psimisc.keybind:46
+key_csb_armorstand.key.openArmorStandGui:0
+key_psimisc.keybind:44
 key_Toggle Magnet:50
-key_bloodmagic.keybind.open_holding:0
-key_bloodmagic.keybind.cycle_holding_pos:0
-key_bloodmagic.keybind.cycle_holding_neg:0
-key_igwmod.keys.wiki:23
+key_bloodmagic.keybind.open_holding:34
+key_bloodmagic.keybind.cycle_holding_pos:-96:SHIFT
+key_bloodmagic.keybind.cycle_holding_neg:-97:SHIFT
+key_igwmod.keys.wiki:0
 key_Scene1 start/pause:0
 key_Scene2 start/pause:0
 key_Scene3 start/pause:0
 key_Scene reset:0
 key_Quest Log:0
-key_Toggle Magnetism Suppressor:49
 key_key.xu2.searchForItems:0
 key_key.ftbu.guide:0
 key_key.ftbu.warp:0
-key_Baubles Inventory:0
 key_key.jei.toggleOverlay:24:CONTROL
 key_key.jei.focusSearch:33:CONTROL
 key_key.jei.showRecipe:19
 key_key.jei.showUses:22
 key_key.jei.recipeBack:14
 key_key.jei.toggleCheatMode:0
-key_key.jei.previousPage:0
-key_key.jei.nextPage:0
+key_key.jei.previousPage:201
+key_key.jei.nextPage:209
 key_key.immersiveengineering.magnetEquip:31
 key_key.clipboardPaste:210
+key_Baubles Inventory:0
 key_key.clienttweaks.disable_step_assist:0
 key_key.clienttweaks.hide_offhand_item:0
 key_key.craftingtweaks.rotate:0
@@ -144,43 +142,43 @@ key_key.craftingtweaks.decompressOne:0
 key_key.craftingtweaks.decompressStack:0
 key_key.craftingtweaks.decompressAll:0
 key_key.craftingtweaks.refill_last:15
-key_key.hudtoggle:0
+key_key.hudtoggle:35
 key_favitem.key.fav:33
-key_key.integrateddynamics.logic_programmer_focus_search:0
-key_key.integrateddynamics.logic_programmer_open_rename:0
-key_LvlUpGUI:38
-key_Quick Commands:0
-key_key.toolbelt.open:34
-key_key.toolbelt.cycle.left:0
-key_key.toolbelt.cycle.right:0
 key_waila.keybind.wailaconfig:82
 key_waila.keybind.wailadisplay:79
 key_waila.keybind.liquid:80
 key_waila.keybind.recipe:81
 key_waila.keybind.usage:75
+key_key.integrateddynamics.logic_programmer_focus_search:0
+key_key.integrateddynamics.logic_programmer_open_rename:0
+key_LvlUpGUI:38
+key_Quick Commands:0
+key_key.toolbelt.open:46
+key_key.toolbelt.cycle.left:47
+key_key.toolbelt.cycle.right:45
 key_key.journeymap.map_toggle_alt:36
 key_key.journeymap.zoom_in:13
 key_key.journeymap.zoom_out:12
-key_key.journeymap.minimap_type:27
+key_key.journeymap.minimap_type:26
 key_key.journeymap.minimap_preset:43
-key_key.journeymap.minimap_toggle_alt:36:CONTROL
-key_key.journeymap.create_waypoint:0
-key_key.journeymap.fullscreen_waypoints:48:CONTROL
+key_key.journeymap.minimap_toggle_alt:0
+key_key.journeymap.create_waypoint:48
+key_key.journeymap.fullscreen_waypoints:0
 key_key.journeymap.fullscreen_options:24
 key_key.journeymap.fullscreen_actions:30
 key_key.journeymap.fullscreen.north:200
 key_key.journeymap.fullscreen.south:208
 key_key.journeymap.fullscreen.east:205
 key_key.journeymap.fullscreen.west:203
-soundCategory_master:0.6
+soundCategory_master:0.75827813
 soundCategory_music:0.0
 soundCategory_record:1.0
 soundCategory_weather:1.0
-soundCategory_block:1.0
+soundCategory_block:0.8450704
 soundCategory_hostile:1.0
-soundCategory_neutral:1.0
+soundCategory_neutral:0.73239434
 soundCategory_player:1.0
-soundCategory_ambient:0.45
+soundCategory_ambient:0.20422535
 soundCategory_voice:1.0
 modelPart_cape:true
 modelPart_jacket:true
