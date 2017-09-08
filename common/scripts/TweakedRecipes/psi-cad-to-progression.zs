@@ -4,12 +4,21 @@
 import minetweaker.item.IIngredient;
 import minetweaker.item.IItemStack;
 
-// CAD Assembler is needed to start with the mod. Need to kill A.Golmn, have Obsidian and Magical wood.
+// CAD Assembler is needed to start with the mod. Need to kill A.Golmn, make Magical wood, go to the nether for basalt.
+recipes.remove(<psi:cad_assembler>);
 recipes.addShaped(<psi:cad_assembler>, [
- [<ore:obsidian>, <embers:archaic_circuit>, <ore:obsidian>],
- [<ore:obsidian>, <ore:blockMagicalWood>, <ore:obsidian>],
+ [<ore:stoneBasalt>, <embers:archaic_circuit>, <ore:stoneBasalt>],
+ [<ore:stoneBasalt>, <ore:blockMagicalWood>, <ore:stoneBasalt>],
  [<ore:plateAluminum>, <ore:ingotAluminum>, <ore:plateAluminum>]
 ]);
+
+recipes.remove(<psi:programmer>);
+recipes.addShaped(<psi:programmer>, [
+  [<ore:stoneBasalt>, <ore:dustPsi>, <ore:stoneBasalt>], 
+  [<ore:ingotNickel>, null, <ore:ingotNickel>], 
+  [<ore:plateNickel>, null, <ore:plateNickel>]
+]);
+
 
 // Starting CAD, need extra iron, Quartz Crystal.
 val startingCads = [

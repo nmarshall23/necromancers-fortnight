@@ -88,6 +88,3 @@ recipes.addShaped(<scannable:scanner>, [[<ore:stickAluminum>, null, <ore:stickAl
 
 // mods.immersiveengineering.Crusher.removeRecipe(<minecraft:quartz> * 3);
 
-
-
-

@@ -2,6 +2,9 @@
 Test in Game
 ------------
 
+
+
+
 Embers Block breaker does it silk touch? No.
 
 Tinkers Tank what is the capacity compared to the Ember Resivour?
@@ -22,6 +25,23 @@ What items repond to Redstone, should all of them require a Redstone latch?
 Is marble other then Astral Sorcery? Yes, quark. Should I use chiel to unify them?
 
 Does Astral Sorcery grindstone work on other tools?
+
+
+Ore Distubuation
+----------------
+Look into how Embvers Default for it's ores is.
+
+### Lead
+Far too hard to find. Needs to be more common. 
+
+### Lapis
+
+Far too hard to find. Should there be more depots of it? 
+
+### Railcraft like Geodes
+
+Could I add custom blocks like RC darkstone? Can I use RC darkstone?
+Mayb they don't need diamonds just lapis and Emerals.
 
 
 Quark 
@@ -54,6 +74,36 @@ TODO
 
 Where should these be in Progression?
 -------------------------------------
+
+PSI
+---
+
+I think getting into PSI is a hunt for all of the ores, and gems. Should it require a diamond like Blood maigc? 
+
+
+
+Ember
+-----
+
+### Requires
+ - 
+
+Blood Magic
+-----------
+
+### Requires
+ - 12 Iron Ingots
+ - Lapus and Redstone
+ - A Dimond
+
+
+Astral Sorcerary
+----------------
+
+### Requires
+ - Uncommon Gem
+ - Uncommon loot
+ - Rare Location
 
 
 Custom Items to add
@@ -114,3 +164,4 @@ AE machines should use Aluminum, and steel.
 ## 9. Breath of the Dragon
 
 Actually Additions Empowerer, does it belong here? Or should be only be fore troublesome items?
+
