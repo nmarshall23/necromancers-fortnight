@@ -1,0 +1,32 @@
+[
+  "# Changes to Vanilla Minecraft",
+  null,
+  "## Spawn Point",
+  "To give you time to learn the pack, there will be no monsters spawning on the surface at night near spawn.",
+  null,
+  "## Wood",
+  "Punching trees will not give you a log. Instead you will gain only one plank, sawdust and bark. You can use the sawdust, and bark to cook things.",
+  "You can also make a firestarter with the bark and some sticks.",
+  "Use an Axe to harvest logs. However to get planks, split logs in the crafting grid by placing the log with an Axe of harvest level of Iron or better.",
+  null,
+  "## Charcoal Pit",
+  "The furnace doesn't get hot enought to make charcoal from logs. You will need to make a Charcoal Pit.",
+  "The Charcoal Pit is a seamless multiblock structure which refines Wood Piles into Charcoal Blocks.",
+  null,
+  {
+  "id": "list",
+  "ordering": "number",
+  "list": [
+     " Craft several Wood Piles each requiring four logs.",
+     " Lay out a connected Wood Piles structure. They need to be touching each other.",
+     " Place a fireproof block on every open Wood Pile face. That includes the bottem. Use Dirt for now, other fireproof blocks will result in more charcoal. Leave one block open for ignition.",
+     " Use a Fire Starter to ignite one Wood Pile.",
+     " Cover up the fire with a fireproof block. Don't worry place the block on the fire. The Wood Pile will still burn.",
+     " If there are smoke particles around your charcoal pit it is running.",
+     " Wait until the smoke particles are gone. This takes a good amount of time!",
+     " Dig up the fireproof blocks. The pit should be filled with Charcoal Blocks.",
+     " Break the Charcoal Blocks with a pickaxe, if you used Dirt as your fireproof blocks each will break into 11 charcoal items."
+    ]
+  }
+
+]

@@ -1,0 +1,5 @@
+shaped=
+    oredictionary:plateSteel mc:sticky_piston oredictionary:plateSteel,
+    fluixCrystal _ oredictionary:ingotIron,
+    oredictionary:plateSteel mc:sticky_piston oredictionary:plateSteel
+    -> ae2:inscriber

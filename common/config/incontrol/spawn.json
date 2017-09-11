@@ -1,6 +1,6 @@
 [
 {
- "maxspawndist": 160.0,
+ "maxspawndist": 90.0,
  "hostile": true,
  "dimension": 0,
  "minheight": 60,
@@ -22,7 +22,7 @@
  "result": "deny"
 },
 {
- "maxspawndist": 256.0,
+ "maxspawndist": 512.0,
  "structure": "Village",
  "mob": "minecraft:villager",
  "result": "deny"

@@ -1,0 +1,22 @@
+[
+  {
+    "id" : "changes", 
+    "icon_item": "minecraft:egg", 
+    "lang": "Changes to Vanilla Minecraft" 
+  },
+  {
+    "id" : "food", 
+    "icon_item": "minecraft:egg", 
+    "lang": "Food is the Spice of Life" 
+  },
+  {
+    "id" : "tamable_animals", 
+    "icon_item": "minecraft:egg", 
+    "lang": "Making friends on the farm" 
+  },
+  {
+    "id" : "tconstruct", 
+    "icon_item": "minecraft:egg", 
+    "lang": "A new set of tools" 
+  }
+]

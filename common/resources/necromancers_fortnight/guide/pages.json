@@ -1,0 +1,17 @@
+[
+  {
+    "id" : "getting_started", 
+    "icon_item": "minecraft:bread", 
+    "lang": "Getting Started"
+  },
+  {
+    "id": "magic_systems",
+    "icon_item": "minecraft:bread", 
+    "lang": "Magic Systems"
+  },
+  {
+    "id": "progression",
+    "icon_item": "immersiveengineering:wooden_device1", 
+    "lang": "Progression"
+  }
+]

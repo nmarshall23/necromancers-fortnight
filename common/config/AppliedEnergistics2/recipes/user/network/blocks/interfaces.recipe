@@ -1,0 +1,13 @@
+shapeless=
+    ae2:part.Interface
+    -> ae2:interface
+
+shapeless=
+    ae2:interface
+    -> ae2:part.Interface
+
+shaped=
+    oredictionary:plateAluminum glass oredictionary:plateAluminum,
+    ae2:material.AnnihilationCore _ ae2:material.FormationCore,
+    oredictionary:plateAluminum glass oredictionary:plateAluminum
+    -> ae2:interface

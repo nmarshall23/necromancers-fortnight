@@ -4,16 +4,16 @@
  */
 import minetweaker.item.IIngredient;
 import minetweaker.item.IItemStack;
-import gigaherz.survivalist.Choppable;
+// import gigaherz.survivalist.Choppable;
 
 
-val mcLog = <minecraft:log>.definition;
-val mcPlank = <minecraft:planks>.definition;
+// val mcLog = <minecraft:log>.definition;
+// val mcPlank = <minecraft:planks>.definition;
 
 //does this for <minecraft:wool:3> to <minecraft:wool:12>
-for i in 0 to 5 {
- Choppable.addRecipe(mcLog.makeStack(i), mcPlank.makeStack(i), 1.0, 0.6);
-}
+//for i in 0 to 5 {
+// Choppable.addRecipe(mcLog.makeStack(i), mcPlank.makeStack(i), 1.0, 0.6);
+//}
 
 var logs = [
  <betterwithaddons:log_mulberry>,
@@ -40,6 +40,6 @@ var planks = [
 ] as IItemStack[];
 
 for idx, log in logs {
-  Choppable.addRecipe(log, planks[idx], 1.0, 0.60);
+//  Choppable.addRecipe(log, planks[idx], 1.0, 0.60);
 }
 

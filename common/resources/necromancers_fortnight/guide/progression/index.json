@@ -1,0 +1,34 @@
+[
+  "# Progression",
+  null,
+  "I expect that you do not know all of these mods. I have arranged them in a logical order.",
+  null,
+  "## Subsistence Farming",
+  "Once you have plenty of food, and some animals tamed you are ready to move on.",
+  null,
+  "## Simple Mechanical Power",
+  "This starts with building a Better with Mods Windmill.",
+  "To make a Windmill requires 192 Hemp Fibers. You get Hemp Fibers by Milling Hemp. You will need 64 Hemp. Place an handcrake next to the millstone. Clicking on it will use a lot of hunger to power the millstone.",
+  null,
+  "## Awkward Mechanical Automation",
+  "This starts with building a Better with Mods Saw. With this you can made a Better with Mods Waterwheel and Immersive Engineering Windmill and Waterwheel to start generating Redstone Flux power.",
+  "To make a Saw requires tanned leather.",
+  null,
+  "## The Rewards of Brimstone",
+  "This starts with visting the nether. Collecting netherrack and soulsand.",
+  "To get to the nether will require you to have a pickaxe that can harvest Obsidian. The simplest way is an Tinkers' Construct pickaxe with an Iron or Bronze head, that has been upgrated with a Diamond. The other option is to collect Creeper Oysters by shearing a creeper. Then use those to make Diamond Ingots. Lastly craft a Diamond Pickaxe.",
+  null,
+  "## Riddle of Steel",
+  "This starts with building a Better with Mods Kiln. With a Kiln you can fire blast bricks and make a Bast Furnace and start cooking up steel.",
+  "To make a Kiln requires:",
+  {
+  "id": "list",
+  "list": [
+    "Blaze Powder",
+    "Concentrated Hellfire",
+    "One Hibachi, more will speed up the Kiln.",
+    "A Bellows",
+    "Redstone timing mechanism, a Turn Table is the simplest. "
+    ]
+  }
+]

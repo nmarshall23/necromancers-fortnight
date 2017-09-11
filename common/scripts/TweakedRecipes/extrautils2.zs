@@ -17,12 +17,13 @@ recipes.addShaped(<extrautils2:miner>, [
 ]);
 */
 // User, can place blocks. So must use Soul Urn
-recipes.remove(<extrautils2:user>);
+/*recipes.remove(<extrautils2:user>);
 recipes.addShaped(<extrautils2:user>, [
  [<appliedenergistics2:smooth_sky_stone_block>, <extrautils2:ingredients>, <appliedenergistics2:smooth_sky_stone_block>], 
  [<betterwithmods:urn:8>, <minecraft:dropper>, <immersiveengineering:material:9>], 
  [<appliedenergistics2:smooth_sky_stone_block>, <betterwithmods:material:35>, <appliedenergistics2:smooth_sky_stone_block>]
 ]);
+*/
 
 // Scanner, made harder to match User
 recipes.addShaped(<extrautils2:scanner>, [
