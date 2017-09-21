@@ -5,11 +5,18 @@
   null,
   "## Cows",
   "Cows need a food trough with weat, oats. You should give them four blocks of water as they do consume a block when drinking. You should also note that the food trough is a block high so build up that fence if it's next to it.",
+  "Only Holstein, and Friesian Cows Milk can be made into Cheese. Place a Cheese mold on the ground and pour the milk into it. Then wait for it to age.",
   null,
   "## Chickens",
   "Chickens are the easist to tame. You need to make nests for the hens, and feed them seeds.", "You can place seeds down for chickens to eat by shift-click seeds on grass or dirt.",
   "Chickens need water but they only need one block of it, they will not consume a block of water.",
   null,
   "## Pigs",
-  "Pigs can eat.. TODO.. need mud.. truffles etc.."
+  "TODO.. need mud. truffles etc..",
+  null,
+  "## Sheep",
+  "Sheep Milk can me used to make cheese.",
+  null,
+  "## Goat",
+  "Goat Milk can me used to make cheese."
 ]
