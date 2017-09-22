@@ -20,6 +20,6 @@
 
 ## Response:
    - Sure, I will help. ( GOTO: 03a)
-   - Sounds like hard work I will pass. ( GOTO: 02b)
+   - Sounds like hard work I will pass. ( GOTO: 03a)
 
 
