@@ -17,3 +17,7 @@ recipes.removeShaped(<harvestcraft:well>);
 recipes.removeShapeless(<harvestcraft:saltitem>);
 
 mods.betterwithmods.Cauldron.add(<harvestcraft:saltitem>, <minecraft:bucket>, [<minecraft:water_bucket>]);
+
+// Harden Leather is made with tanned leather.
+recipes.remove(<harvestcraft:hardenedleatheritem>);
+recipes.addShapeless(<harvestcraft:hardenedleatheritem>, [<ore:materialPressedwax>, <betterwithmods:material:33>]);

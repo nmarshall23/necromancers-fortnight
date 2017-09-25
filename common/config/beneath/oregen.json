@@ -14,8 +14,8 @@
     "oremeta": 0,
     "source": "minecraft:stone",
     "srcmeta": 0,
-    "veins": 24,
-    "size": 24,
+    "veins": 26,
+    "size": 32,
     "miny": 10,
     "maxy": 246
   },
@@ -78,5 +78,55 @@
     "size": 24,
     "miny": 10,
     "maxy": 246
+  },
+  {
+    "ore": "appliedenergistics2:quartz_ore",
+    "oremeta": 0,
+    "source": "minecraft:stone",
+    "srcmeta": 0,
+    "veins": 12,
+    "size": 12,
+    "miny": 180,
+    "maxy": 246
+  },
+  {
+    "ore": "immersiveengineering:ore",
+    "oremeta": 0,
+    "source": "minecraft:stone",
+    "srcmeta": 0,
+    "veins": 20,
+    "size": 18,
+    "miny": 40,
+    "maxy": 72
+  },
+  {
+    "ore": "immersiveengineering:ore",
+    "oremeta": 1,
+    "source": "minecraft:stone",
+    "srcmeta": 0,
+    "veins": 20,
+    "size": 18,
+    "miny": 99,
+    "maxy": 246
+  },
+  {
+    "ore": "immersiveengineering:ore",
+    "oremeta": 2,
+    "source": "minecraft:stone",
+    "srcmeta": 0,
+    "veins": 8,
+    "size": 24,
+    "miny": 8,
+    "maxy": 48
+  },
+  {
+    "ore": "forestry:resources",
+    "oremeta": 2,
+    "source": "minecraft:stone",
+    "srcmeta": 0,
+    "veins": 20,
+    "size": 16,
+    "miny": 160,
+    "maxy": 200
   }
 ]

@@ -13,6 +13,9 @@
 
 // ================================================================================
 //#MARKER REMOVE
+recipes.remove(<tconstruct:throwball:1>);
+
+
 
 
 
@@ -56,6 +59,14 @@ recipes.remove(<actuallyadditions:block_grinder>);
 //#MARKER ADD SHAPELESS
 
 
+recipes.addShapeless(<scannable:module_fluid>, [<scannable:module_blank>, <ore:itemSilicon>, <ore:listAllwater>.noReturn()]);
+recipes.addShapeless(<scannable:module_block>, [<scannable:module_blank>, <appliedenergistics2:material:5>, <ore:stone>]);
+recipes.addShapeless(<scannable:module_block>, [<scannable:module_blank>, <appliedenergistics2:material:7>, <ore:stone>]);
+recipes.addShapeless(<scannable:module_range>, [<scannable:module_blank>, <appliedenergistics2:material:7>, <ore:materialEnderPearl>]);
+recipes.addShapeless(<scannable:module_ore_rare>, [<scannable:module_blank>, <appliedenergistics2:material:7>, <ore:gemDiamond>]);
+
+
+
 
 
 
@@ -64,19 +75,25 @@ recipes.remove(<actuallyadditions:block_grinder>);
 //#MARKER ADD SHAPED
 
 
-recipes.addShaped(<immersiveengineering:metal_device1:13>, [[<appliedenergistics2:quartz_glass>, <immersiveengineering:material:26>, <appliedenergistics2:quartz_glass>], [<appliedenergistics2:quartz_glass>, null, <appliedenergistics2:quartz_glass>], [<ore:slabTreatedWood>, <immersiveengineering:material:8>, <ore:slabTreatedWood>]]);
+recipes.addShaped(<opencomputers:material:7> * 8, [[<ore:nuggetTin>, <ore:nuggetTin>, <ore:nuggetTin>], [<ore:dustRedstone>, <ore:oc:materialTransistor>, <ore:dustRedstone>], [<ore:nuggetTin>, <ore:nuggetTin>, <ore:nuggetTin>]]);
+recipes.addShaped(<scannable:module_blank>, [[<ore:dustRedstone>, <ore:oc:circuitChip1>, <ore:dustRedstone>], [<ore:itemSilicon>, <ore:oc:materialCircuitBoardPrinted>, <ore:itemSilicon>], [<ore:nuggetGold>, <ore:nuggetGold>, <ore:nuggetGold>]]);
+recipes.addShaped(<scannable:module_blank>, [[<ore:dustRedstone>, <ore:oc:circuitChip1>, <ore:dustRedstone>], [<ore:itemSilicon>, <ore:oc:materialCircuitBoardPrinted>, <ore:itemSilicon>], [<ore:nuggetElectrum>, <ore:nuggetElectrum>, <ore:nuggetElectrum>]]);
+
+/*
+recipes.addShaped(<cyclicmagic:block_fragile> * 4, [[<ore:stickWood>, null, <ore:stickWood>], [null, <ore:sidingWood>, null], [<ore:stickWood>, null, <ore:stickWood>]]);
+recipes.addShaped(<cyclicmagic:block_fragile_auto> * 4, [[<ore:mouldingWood>, null, <ore:mouldingWood>], [null, <ore:sidingWood>, null], [<ore:mouldingWood>, null, <ore:mouldingWood>]]);
+recipes.addShaped(<cyclicmagic:block_fragile_weak> * 8, [[<ore:cornerWood>, null, <ore:cornerWood>], [null, <ore:sidingWood>, null], [<ore:cornerWood>, null, <ore:cornerWood>]]);
+recipes.addShaped(<cyclicmagic:block_fragile_weak> * 8, [[<ore:cornerWood>, null, <ore:cornerWood>], [null, <betterwithmods:wood_siding>, null], [<ore:cornerWood>, null, <betterwithmods:wood_corner>]]);
+*/
 
 
-recipes.remove(<packingtape:tape>);
-recipes.addShapeless(<packingtape:tape>, [<ore:slimeball>, <ore:string>, <ore:paper>]);
 
-recipes.remove(<earthworks:block_dry_stone>);
 
-recipes.addShapeless(<earthworks:block_dry_stone>, [<earthworks:itemslab_dry_stone>, <earthworks:itemslab_dry_stone>]);
-recipes.addShaped(<earthworks:block_dry_stone> * 5, [[null, <minecraft:stone>, null], [<minecraft:stone>, <minecraft:stone>, <minecraft:stone>], [null, <minecraft:stone>, null]]);
-recipes.addShapeless(<earthworks:block_dry_stone> * 3, [<earthworks:stair_dry_stone>, <earthworks:stair_dry_stone>, <earthworks:stair_dry_stone>, <earthworks:stair_dry_stone>]);
 
-recipes.addShaped(<earthworks:block_dry_stone>, [[<earthworks:itemslab_dry_stone>], [<earthworks:itemslab_dry_stone>]]);
+
+
+
+
 
 recipes.remove(<openradio:laseritem>);
 recipes.remove(<scannable:scanner>);
@@ -87,4 +104,7 @@ recipes.addShaped(<scannable:scanner>, [[<ore:stickAluminum>, null, <ore:stickAl
 
 
 // mods.immersiveengineering.Crusher.removeRecipe(<minecraft:quartz> * 3);
+
+
+
 

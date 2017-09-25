@@ -7,6 +7,10 @@ import minetweaker.item.IItemStack;
 import minetweaker.item.IIngredient;
 import minetweaker.liquid.ILiquidStack;
 
+// Remove IE plate receipes
+recipes.removeShapeless(<immersiveengineering:metal:*>);
+
+
 var plates = [
  <embers:plate_copper>,
  <embers:plate_aluminum>,
@@ -39,15 +43,15 @@ var ingotOreDic = [
  <ore:ingotUranium>,
 ] as IIngredient[];
 
-for i, plateItemStack in plates {
- recipes.removeShapeless(plateItemStack, [ingotOreDic[i], <immersiveengineering:tool>]);
-}
+//for i, plateItemStack in plates {
+//  recipes.removeShapeless(plateItemStack, [ingotOreDic[i], <immersiveengineering:tool>]);
+// }
 
 recipes.addShapeless(<immersiveengineering:metal:35>, [<ore:ingotUranium>, <ore:ingotUranium>, <ore:ingotUranium>, <ore:ingotUranium>, <embers:tinker_hammer>]);
 recipes.addShapeless(<immersiveengineering:metal:38>, [<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>, <embers:tinker_hammer>]);
 recipes.addShapeless(<immersiveengineering:metal:36>, [<ore:ingotConstantan>, <ore:ingotConstantan>, <ore:ingotConstantan>, <ore:ingotConstantan>, <embers:tinker_hammer>]);
-/*
 
+/*
 
 var plates = [
  <immersiveengineering:metal:30>, // copper plate
@@ -64,7 +68,7 @@ var plates = [
  <embers:plate_bronze>, // bronze
  <embers:plate_tin>
 ] as IItemStack[];
-
+*/
 var plateCast = <tconstruct:cast_custom:3>;
 
 var moltenMetals = [
@@ -98,7 +102,7 @@ var meltingTemps = [
  416,
  387
 ] as int[];
-
+/*
 //OutputStack, InputFluid, CastStack, ConsumeCast, Time in Ticks
 var lqdAmt = 144 * 3 as int; // 3 ingots
 var lqdRecyc = 96 as int;

@@ -17,10 +17,36 @@ val lootToRemove = [
   <minecraft:string>,
   <minecraft:obsidian>
 ] as IItemStack[];
+// Remove too good for lootz
+// <cyclicmagic:glove_climb>
+// cyclicmagic:evoker_fang
+// cyclicmagic:charm_wing
+// cyclicmagic:charm_fire
+// cyclicmagic:charm_void
+// cyclicmagic:charm_antidote
 
+/*
+var blacksmith = LootTables.getTable("minecraft:chests/village_blacksmith");
+val mainBlacksmith = blacksmith.getPool("main");
+mainBlacksmith.removeItemEntry(<minecraft:obsidian>);
 
-// val sheep = LootTables.getTable("minecraft:entities/sheep");
-// val main = sheep.getPool("main");
-for item in lootToRemove {
-// main.removeItemEntry(<minecraft:mutton>);
+var netherBridge = LootTables.getTable("minecraft:chests/nether_bridge");
+val mainNetherBridge = netherBridge.getPool("main");
+mainNetherBridge.removeItemEntry(<minecraft:obsidian>);
+*/
+function removeLootFunc(loot as IItemStack, tableNames as string[]) {
+  for tableName in tableNames {
+    var table = LootTables.getTable(tableName);
+    var pool = table.getPool("main");
+    pool.removeItemEntry(loot);
+  }
 }
+
+val obsidianLoots = [
+ "minecraft:chests/village_blacksmith",
+ "minecraft:chests/nether_bridge"
+] as string[];
+
+removeLootFunc(<minecraft:obsidian>, obsidianLoots);
+
+

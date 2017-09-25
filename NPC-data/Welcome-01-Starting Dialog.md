@@ -11,12 +11,17 @@
 ## Response:
    - What do you mean?
 
-   Well you see the Necromancer was beated many years ago, before I was born.
+   Well you see the Necromancer was beated many years ago, sometime before I was born.
 
 ## Response:
    - That's not possible. 
 
-   If you help me with a few chores, I will tell you all that I know.
+    That's what the last people said. <Shrugs> I've chores to do best of luck. 
+    
+## Response:
+    - Wait can you tell me what happened?
+
+    If you help me with a few chores, I will tell you all that I know.
 
 ## Response:
    - Sure, I will help. ( GOTO: 03a)

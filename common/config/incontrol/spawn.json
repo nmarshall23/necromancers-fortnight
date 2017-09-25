@@ -14,11 +14,11 @@
  "random": 0.75,
  "result": "deny"
 },
-
 {
  "maxheight": 60,
+ "minheight": 0,
  "dimension": 0,
- "mob": ["minecraft:witch"],
+ "mob": ["minecraft:witch", "enderzoo:witherwitch", "enderzoo:withercat"],
  "result": "deny"
 },
 {
@@ -34,21 +34,28 @@
  "result": "deny"
 },
 {
- "mob": "embers:ancient_golem", 
- "structure": "Stronghold",
- "result": "default",
- "healthmultiply": 1.5,
- "damageadd": 2
+ "mob": ["embers:ancient_golem"], 
+ "seesky": true,
+ "random": 0.75,
+ "result": "deny"
+},
+{
+ "hostile": true,
+ 
+ "seesky": true,
+ "random": 0.5,
+ "result": "deny"
 },
 {
  "mob": "embers:ancient_golem", 
- "seesky": true,
- "random": 0.5,
+ "structure": "stronghold",
+ "healthmultiply": 1.5,
+ "damageadd": 2,
  "result": "default"
 },
 {
  "hostile": true,
- "structure": "Stronghold",
+ "structure": "stronghold",
  "result": "deny"
 },
 {

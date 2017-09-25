@@ -1,5 +1,5 @@
 /*
- * Need to set sounds
+ * BWM Compact with nether Ex Netherrack. Looks like you luck out, no addtional sounds.
  */
 
 
