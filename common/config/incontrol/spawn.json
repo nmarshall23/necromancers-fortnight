@@ -22,8 +22,7 @@
  "result": "deny"
 },
 {
- "maxspawndist": 512.0,
- "structure": "Village",
+ "maxspawndist": 640.0,
  "mob": "minecraft:villager",
  "result": "deny"
 },

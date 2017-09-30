@@ -1,5 +1,5 @@
 #Custom Ore Generation 1.11 Config Options
-#Thu Aug 17 23:50:56 EDT 2017
+#Sat Sep 30 01:20:50 EDT 2017
 oreFreq=1.0
 oreSize=1.25
 debugMode=false
@@ -13,13 +13,13 @@ vnlaClayFreq=1.05
 vnlaClaySize=1.05
 vnlaCoalDist=SparseVeins
 vnlaCoalFreq=1.0
-vnlaCoalSize=1.0
+vnlaCoalSize=1.1
 vnlaIronDist=LayeredVeins
-vnlaIronFreq=1.0
-vnlaIronSize=1.2
+vnlaIronFreq=0.15
+vnlaIronSize=1.1
 vnlaMountainIronDist=LayeredVeins
-vnlaMountainIronFreq=1.0
-vnlaMountainIronSize=1.0
+vnlaMountainIronFreq=0.2
+vnlaMountainIronSize=1.1
 vnlaGoldDist=LayeredVeins
 vnlaGoldFreq=1.0
 vnlaGoldSize=1.0
