@@ -11,7 +11,7 @@ import loottweaker.vanilla.loot.Functions;
 import minetweaker.item.IItemStack;
 
 
-// These are craftable they make poor loot.
+
 val lootToRemove = [
   <minecraft:name_tag>,
   <minecraft:string>,
@@ -33,7 +33,7 @@ mainBlacksmith.removeItemEntry(<minecraft:obsidian>);
 var netherBridge = LootTables.getTable("minecraft:chests/nether_bridge");
 val mainNetherBridge = netherBridge.getPool("main");
 mainNetherBridge.removeItemEntry(<minecraft:obsidian>);
-*/
+
 function removeLootFunc(loot as IItemStack, tableNames as string[]) {
   for tableName in tableNames {
     var table = LootTables.getTable(tableName);
@@ -42,11 +42,36 @@ function removeLootFunc(loot as IItemStack, tableNames as string[]) {
   }
 }
 
+function removeLootByArry(lootTable as IAny[]) {
+  for row in lootTable {
+    var loot = row[0] as IItemStack;
+    var tableNames = row[1] as string[];
+    for tableName in tableNames {
+      var table = LootTables.getTable(tableName);
+      var pool = table.getPool("main");
+      pool.removeItemEntry(loot);
+    }
+  }
+}*/
+/*
 val obsidianLoots = [
  "minecraft:chests/village_blacksmith",
  "minecraft:chests/nether_bridge"
 ] as string[];
 
 removeLootFunc(<minecraft:obsidian>, obsidianLoots);
+*/
 
+val steelRod = <immersiveengineering:material:2>;
+val steelComp = <immersiveengineering:material:9>;
 
+// These are either craftable, or steel need to be removed as loot.
+val lootTable = [
+    [<minecraft:obsidian>, ["minecraft:chests/village_blacksmith", "minecraft:chests/nether_bridge"]],
+    [steelRod, ["immersiveengineering:chests/engineers_village_house"]],
+    [steelComp, ["immersiveengineering:chests/engineers_village_house"]],
+    [<minecraft:name_tag>, ["immersiveengineering:chests/abandoned_mineshaft", "minecraft:chests/woodland_mansion", "minecraft:chests/simple_dungeon"]],
+    [<minecraft:string>, ["minecraft:chests/desert_pyramid", "minecraft:chests/woodland_mansion", "minecraft:chests/simple_dungeon"]]
+];
+
+// removeLootByArry(lootTable);

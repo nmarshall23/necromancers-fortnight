@@ -12,7 +12,8 @@
                     "fillerBlock": { "blockId": "nex:block_netherrack", "meta": 0 },
                     "oceanBlock": { "blockId": "minecraft:lava", "meta": 0 },
                     "entitySpawnList": [
-                        { "entityId": "nex:neutral_salamander", "creatureType": "monster", "weight": 100, "minGroupCount": 3, "maxGroupCount": 6 },   { "entityId": "minecraft:zombie_pigman", "creatureType": "monster", "weight": 100, "minGroupCount": 4, "maxGroupCount": 4 },   { "entityId": "minecraft:magma_cube", "creatureType": "monster", "weight": 25, "minGroupCount": 4, "maxGroupCount": 4 }
+                        { "entityId": "nex:neutral_salamander", "creatureType": "monster", "weight": 100, "minGroupCount": 3, "maxGroupCount": 6 },   { "entityId": "minecraft:zombie_pigman", "creatureType": "monster", "weight": 100, "minGroupCount": 4, "maxGroupCount": 4 },   { "entityId": "minecraft:magma_cube", "creatureType": "monster", "weight": 40, "minGroupCount": 4, "maxGroupCount": 4 },
+                        {"entityId": "nex:monster_ember", "creatureType": "monster", "weight": 80, "minGroupCount": 1, "maxGroupCount": 2}
                     ],
                     "featureList": [
                         {
@@ -773,7 +774,9 @@
                     "fillerBlock": { "blockId": "nex:block_netherrack", "meta": 2 },
                     "oceanBlock": { "blockId": "minecraft:lava", "meta": 0 },
                     "entitySpawnList": [
-                        { "entityId": "nex:neutral_mogus", "creatureType": "monster", "weight": 100, "minGroupCount": 4, "maxGroupCount": 6 },   { "entityId": "minecraft:wither_skeleton", "creatureType": "monster", "weight": 55, "minGroupCount": 1, "maxGroupCount": 1 },   { "entityId": "nex:monster_bone_spider", "creatureType": "monster", "weight": 35, "minGroupCount": 1, "maxGroupCount": 1 }
+                        { "entityId": "nex:neutral_mogus", "creatureType": "monster", "weight": 100, "minGroupCount": 4, "maxGroupCount": 6 },   
+                        { "entityId": "nex:monster_bone_spider", "creatureType": "monster", "weight": 35, "minGroupCount": 1, "maxGroupCount": 1 },
+                        { "entityId": "nex:monster_ember", "creatureType": "monster", "weight": 40, "minGroupCount": 1, "maxGroupCount": 3 }
                     ],
                     "featureList": [
                         {
@@ -869,7 +872,7 @@
                                     "mirror": true,
                                     "weight": 1,
                                     "lootTables": [ "nex:chest/base_grave", "nex:chest/grave_rare", "nex:chest/grave_fungi_forest" ],
-                                    "spawnerMobs": [ "nex:monster_spore_creeper" ]
+                                    "spawnerMobs": [ "nex:monster_bone_spider" ]
                                 }
                             ],
                             "superRare": true,
@@ -887,7 +890,7 @@
                                     "mirror": true,
                                     "weight": 1,
                                     "lootTables": [ "nex:chest/grave_rare" ],
-                                    "spawnerMobs": [ "nex:monster_spore_creeper" ]
+                                    "spawnerMobs": [ "nex:monster_bone_spider" ]
                                 }
                             ],
                             "superRare": true,
@@ -905,7 +908,7 @@
                                     "mirror": true,
                                     "weight": 1,
                                     "lootTables": [ "nex:chest/temple_fungi_forest", "nex:chest/temple_rare" ],
-                                    "spawnerMobs": [ "nex:monster_spore_creeper" ]
+                                    "spawnerMobs": [ "nex:monster_bone_spider" ]
                                 },
                                 {
                                     "structureType": "ground",
@@ -914,7 +917,7 @@
                                     "mirror": true,
                                     "weight": 2,
                                     "lootTables": [ "nex:chest/temple_fungi_forest", "nex:chest/temple_rare" ],
-                                    "spawnerMobs": [ "nex:monster_spore_creeper" ]
+                                    "spawnerMobs": [ "minecraft:blaze", "nex:monster_ember" ]
                                 },
                                 {
                                     "structureType": "ground",
@@ -923,7 +926,7 @@
                                     "mirror": true,
                                     "weight": 3,
                                     "lootTables": [ "nex:chest/temple_fungi_forest", "nex:chest/temple_rare" ],
-                                    "spawnerMobs": [ "nex:monster_spore_creeper" ]
+                                    "spawnerMobs": [ "minecraft:blaze", "nex:monster_ember" ]
                                 }
                             ],
                             "superRare": true,
