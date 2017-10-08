@@ -34,13 +34,7 @@ var netherBridge = LootTables.getTable("minecraft:chests/nether_bridge");
 val mainNetherBridge = netherBridge.getPool("main");
 mainNetherBridge.removeItemEntry(<minecraft:obsidian>);
 
-function removeLootFunc(loot as IItemStack, tableNames as string[]) {
-  for tableName in tableNames {
-    var table = LootTables.getTable(tableName);
-    var pool = table.getPool("main");
-    pool.removeItemEntry(loot);
-  }
-}
+
 
 function removeLootByArry(lootTable as IAny[]) {
   for row in lootTable {
@@ -62,16 +56,56 @@ val obsidianLoots = [
 removeLootFunc(<minecraft:obsidian>, obsidianLoots);
 */
 
-val steelRod = <immersiveengineering:material:2>;
-val steelComp = <immersiveengineering:material:9>;
+/*
+function removeLootFunc(loot as string, tableNames as string[], poolName as string) {
+  for tableName in tableNames {
+    var table = LootTables.getTable(tableName);
+    var pool = table.getPool(poolName);
+    pool.removeEntry(loot);
+  }
+}
 
+
+removeLootFunc("minecraft:obsidian", ["minecraft:chests/village_blacksmith", "minecraft:chests/nether_bridge"], "main");
+removeLootFunc("steel_rod", ["immersiveengineering:chests/engineers_house"], "immersiveengineering:engineers_village_house");
+removeLootFunc("steel_component", ["immersiveengineering:chests/engineers_house"], "immersiveengineering:engineers_village_house");
+
+removeLootFunc("minecraft:name_tag", ["minecraft:chests/abandoned_mineshaft", "minecraft:chests/woodland_mansion", "minecraft:chests/simple_dungeon"], "main");
+removeLootFunc("minecraft:string", ["minecraft:chests/desert_pyramid"], "pool1");
+removeLootFunc("minecraft:string", ["minecraft:chests/woodland_mansion", "minecraft:chests/simple_dungeon"], "pool2");
+*/
 // These are either craftable, or steel need to be removed as loot.
-val lootTable = [
-    [<minecraft:obsidian>, ["minecraft:chests/village_blacksmith", "minecraft:chests/nether_bridge"]],
-    [steelRod, ["immersiveengineering:chests/engineers_village_house"]],
-    [steelComp, ["immersiveengineering:chests/engineers_village_house"]],
-    [<minecraft:name_tag>, ["immersiveengineering:chests/abandoned_mineshaft", "minecraft:chests/woodland_mansion", "minecraft:chests/simple_dungeon"]],
-    [<minecraft:string>, ["minecraft:chests/desert_pyramid", "minecraft:chests/woodland_mansion", "minecraft:chests/simple_dungeon"]]
-];
 
-// removeLootByArry(lootTable);
+
+
+function removeLootArryFunc(lootList as string[], tableNames as string[], poolName as string) {
+  for tableName in tableNames {
+    for loot in lootList { 
+      var table = LootTables.getTable(tableName);
+      var pool = table.getPool(poolName);
+      pool.removeEntry(loot);
+    }
+  }
+}
+
+LootTables.getTable("minecraft:chests/abandoned_mineshaft").removePool("forestry_factory_items");
+LootTables.getTable("minecraft:chests/abandoned_mineshaft").removePool("AE2 DUSTS");
+LootTables.getTable("minecraft:chests/abandoned_mineshaft").removePool("AE2 Crystals");
+LootTables.getTable("minecraft:chests/end_city_treasure").removePool("randomthings:biomeCrystal");
+
+removeLootArryFunc(["minecraft:obsidian"], ["minecraft:chests/village_blacksmith", "minecraft:chests/nether_bridge"], "main");
+
+removeLootArryFunc(["minecraft:sapling", "minecraft:apple", "minecraft:diamond", "minecraft:bread"], ["minecraft:chests/village_blacksmith"], "main");
+
+removeLootArryFunc(["steel_rod", "steel_component"], ["immersiveengineering:chests/engineers_house"], "immersiveengineering:engineers_village_house");
+
+removeLootArryFunc(["minecraft:name_tag"], ["minecraft:chests/abandoned_mineshaft", "minecraft:chests/woodland_mansion", "minecraft:chests/simple_dungeon"], "main");
+
+
+removeLootArryFunc(["minecraft:string", "minecraft:sand"], ["minecraft:chests/desert_pyramid"], "pool1");
+removeLootArryFunc(["minecraft:melon_seeds", "minecraft:pumpkin_seeds", "minecraft:beetroot_seeds", "minecraft:wheat"], ["minecraft:chests/simple_dungeon"], "pool1");
+
+removeLootArryFunc(["minecraft:string"], ["minecraft:chests/woodland_mansion", "minecraft:chests/simple_dungeon"], "pool2");
+
+removeLootArryFunc(["minecraft:iron_ingot", "minecraft:gold_ingot", "minecraft:beetroot_seeds"], ["minecraft:chests/end_city_treasure"], "main");
+
