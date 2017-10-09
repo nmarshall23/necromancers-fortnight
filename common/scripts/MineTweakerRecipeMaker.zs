@@ -13,6 +13,7 @@
 
 // ================================================================================
 //#MARKER REMOVE
+recipes.remove(<multistorage:ender_bag:2>);
 
 
 
@@ -64,6 +65,7 @@ recipes.remove(<actuallyadditions:block_grinder>);
 
 // ================================================================================
 //#MARKER ADD SHAPED
+recipes.addShaped(<multistorage:ender_bag:2>, [[<ore:ingotElectrum>, <betterwithmods:material:33>, <ore:ingotElectrum>], [<betterwithmods:material:33>, <minecraft:ender_chest>, <betterwithmods:material:33>], [null, <betterwithmods:material:33>, null]]);
 recipes.addShaped(<tp:med_kit>, [[<ore:paper>, <ore:dyeRed>, <ore:paper>], [<ore:dyeRed>, <minecraft:speckled_melon>, <ore:dyeRed>], [<betterwithmods:material:32>, <ore:dyeRed>, <betterwithmods:material:32>]]);
 
 
